@@ -79,11 +79,11 @@
 
         layer_2 {
             bindings = <
-&trans           &trans  &trans  &trans  &trans  &trans    &mmv MOVE_UP     &trans  &trans          &trans           &trans     &trans     &trans
-&trans           &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &mmv MOVE_DOWN   &kp N6  &kp N7          &kp N8           &kp N9     &kp N0     &trans
-&mt LCTRL GRAVE  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp MINUS  &kp EQUAL  &mt RCTRL BACKSLASH
-&trans           &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans  &trans          &trans           &trans     &trans     &trans
-&kp C_MUTE       &trans  &trans  &trans  &mo 3   &trans    &mkp LCLK        &trans  &trans          &trans           &trans     &trans
+&trans           &trans  &trans  &trans  &trans  &trans    &mmv MOVE_UP     &trans  &trans            &trans             &trans     &trans     &trans
+&trans           &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &mmv MOVE_DOWN   &kp N6  &kp N7            &kp N8             &kp N9     &kp N0     &trans
+&mt LCTRL GRAVE  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp EQUAL  &mt RCTRL BACKSLASH
+&trans           &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans  &trans            &trans             &trans     &trans     &trans
+&kp C_MUTE       &trans  &trans  &trans  &mo 3   &trans    &mkp LCLK        &trans  &trans            &trans             &trans     &trans
             >;
 
             display-name = "layer3";
