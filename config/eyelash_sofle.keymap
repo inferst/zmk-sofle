@@ -57,15 +57,7 @@
     behaviors {
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        Hyperkey {
-            bindings = <&kp LS(LC(LA(LEFT_GUI)))>;
-            key-positions = <55 61>;
-            timeout-ms = <2000>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
